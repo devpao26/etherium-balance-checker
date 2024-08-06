@@ -16,6 +16,7 @@ Here is the step-by-step process:
     * npx tailwindcss init
 
 2. Configured Tailwind CSS: Add the following lines to your tailwind.config.js file:
+    
     /** @type {import('tailwindcss').Config} */
         module.exports = {
         content: [
@@ -25,7 +26,8 @@ Here is the step-by-step process:
             extend: {},
         },
         plugins: [],
-    }
+    } ** /
+
 3. Added the Tailwind directives to src/index.css file:
     @tailwind base;
     @tailwind components;
